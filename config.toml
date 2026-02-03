@@ -1,0 +1,25 @@
+# Project Maupassant — Zola configuration
+# Docs: https://www.getzola.org/documentation/getting-started/configuration/
+
+base_url = "https://myersm0.github.io/project-maupassant"
+
+title = "Project Maupassant"
+description = "Corpus linguistics, translation, and the stories of Guy de Maupassant"
+
+compile_sass = true
+build_search_index = false
+minify_html = false
+
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+taxonomies = [
+	{ name = "tags", feed = true },
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-light"
+
+[extra]
+author = "Michael J. Myers"

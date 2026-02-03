@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="landing">
+	<div class="landing-header">
+		<h1>{{ section.title }}</h1>
+		<p class="landing-subtitle">{{ section.description }}</p>
+	</div>
+
+	<div class="landing-body">
+		{{ section.content | safe }}
+	</div>
+
+	{% set blog = get_section(path="blog/_index.md") %}
+	{% if blog.pages | length > 0 %}
+	<div class="recent-posts">
+		<h2>Recent</h2>
+		{% for post in blog.pages | slice(end=3) %}
+		<article class="post-summary">
+			<time datetime="{{ post.date }}">{{ post.date | date(format="%B %Y") }}</time>
+			<h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+			{% if post.description %}
+			<p>{{ post.description }}</p>
+			{% endif %}
+		</article>
+		{% endfor %}
+	</div>
+	{% endif %}
+</section>
+{% endblock %}

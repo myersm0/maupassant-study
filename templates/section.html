@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} — {{ config.title }}{% endblock %}
+
+{% block content %}
+<section class="section-listing">
+	<h1>{{ section.title }}</h1>
+	{% if section.description %}
+	<p class="section-description">{{ section.description }}</p>
+	{% endif %}
+
+	{{ section.content | safe }}
+
+	{% if section.pages | length > 0 %}
+	<div class="post-list">
+		{% for post in section.pages %}
+		<article class="post-summary">
+			{% if post.date %}
+			<time datetime="{{ post.date }}">{{ post.date | date(format="%B %d, %Y") }}</time>
+			{% endif %}
+			<h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+			{% if post.description %}
+			<p>{{ post.description }}</p>
+			{% endif %}
+		</article>
+		{% endfor %}
+	</div>
+	{% endif %}
+</section>
+{% endblock %}

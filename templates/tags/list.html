@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Tags — {{ config.title }}{% endblock %}
+
+{% block content %}
+<section class="section-listing">
+	<h1>Tags</h1>
+	<div class="tag-list">
+		{% for term in terms %}
+		<a href="{{ term.permalink }}">{{ term.name }} ({{ term.pages | length }})</a>
+		{% endfor %}
+	</div>
+</section>
+{% endblock %}

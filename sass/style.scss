@@ -3,7 +3,7 @@
 	--color-text: #3c3f41;
 	--color-text-secondary: #6b6b6b;
 	--color-accent: #007c92;
-	--color-accent-hover: #d6e9d6;
+	--color-accent-hover: #007c92;
 	--color-border: #e0dcd6;
 	--color-code-bg: #f0ece6;
 
@@ -50,13 +50,24 @@ body {
 }
 
 a {
-	color: var(--color-accent);
+	color: var(--color-accent-hover);
 	text-decoration: none;
 	transition: color 0.15s;
 }
 
 a:hover {
 	color: var(--color-accent-hover);
+}
+
+a {
+  border: 2px solid rgba(0, 0, 0, 0.03);
+  padding: 0.1em 0.25em;
+  border-radius: 2px;
+  transition: background 0.15s;
+}
+
+a:hover {
+  background: #ffc107;
 }
 
 /* ---- Navigation ---- */

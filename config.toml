@@ -3,7 +3,7 @@
 
 base_url = "https://myersm0.github.io/project-maupassant"
 
-title = "Project Maupassant"
+title = "A Study"
 description = "Corpus linguistics, translation, and the stories of Guy de Maupassant"
 
 compile_sass = true
@@ -17,9 +17,10 @@ taxonomies = [
 	{ name = "tags", feed = true },
 ]
 
-[markdown]
-highlight_code = true
-highlight_theme = "base16-ocean-light"
+[markdown.highlighting]
+enabled = true
+theme = "catppuccin-latte"
 
 [extra]
 author = "Michael J. Myers"
+subtitle = "Maupassant in English"

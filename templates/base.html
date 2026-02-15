@@ -16,12 +16,12 @@
 <body>
 	<nav class="site-nav">
 		<div class="nav-inner">
-			<a class="site-title" href="{{ config.base_url }}">Project Maupassant</a>
+			<a class="site-title" href="{{ config.base_url }}">
+				{{ config.title }}<span class="site-subtitle">{{ config.extra.subtitle }}</span>
+			</a>
 			<div class="nav-links">
 				<a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
-				<a href="{{ get_url(path='@/stories/_index.md') }}">Stories</a>
-				<a href="{{ get_url(path='@/technical/_index.md') }}">Technical</a>
-				<a href="{{ get_url(path='@/about.md') }}">About</a>
+				<a href="{{ get_url(path='@/tools/_index.md') }}">Tools</a>
 			</div>
 		</div>
 	</nav>

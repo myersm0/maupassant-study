@@ -24,6 +24,10 @@ html {
 	font-size: 18px;
 }
 
+html {
+	overflow-y: scroll;
+}
+
 body {
 	font-family: var(--font-body);
 	font-weight: 400;
@@ -64,6 +68,13 @@ a:hover {
 	font-size: 1rem;
 	letter-spacing: 0.02em;
 	color: var(--color-text);
+}
+
+.site-subtitle {
+	display: block;
+	font-weight: 400;
+	font-size: 0.75em;
+	color: var(--color-text-secondary);
 }
 
 .site-title:hover {
@@ -379,3 +390,5 @@ main {
 		margin-left: 0;
 	}
 }
+
+.giallo-l { display: inline-block; min-height: 1lh; width: 100%; }

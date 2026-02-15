@@ -1,6 +1,5 @@
 +++
-title = "Technical"
-description = "Tools and data behind the project."
+title = "Tools"
 +++
 
 ## Isosceles
@@ -14,3 +13,8 @@ A parallel corpus for computational analysis of literary translation, focusing o
 A corpus query engine, written in Rust. Designed for annotated literary corpora with first-class support for dealing with parallel texts.
 
 [Repository on GitHub →](https://github.com/myersm0/montre)
+
+## TEI-Littré
+A structurally enriched TEI edition of the XMLittré dictionary data.
+
+[Repository on GitHub →](https://github.com/myersm0/tei-littre)

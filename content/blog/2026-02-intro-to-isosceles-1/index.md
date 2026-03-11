@@ -36,7 +36,7 @@ There are also four McMaster et al. stories, not shown in this plot, that have n
 ### Poe-Baudelaire
 For Baudelaire's translations of Poe there were few enough stories, with titles that easily matched up at a glance between the English and French, that I simply created the parallel index myself manually.
 
-Below is a comparison of word counts for the Poe stories. Baudelaire's translations are much more consistent in length than we saw above with McMaster et al., and even tend to be slightly longer in the French than in the English originals. There's one notable exception, "The Adventures of One Hans Pfaal," coming in at 88% the length of the original. In fact that's the only Baudelaire translation that's shorter than the Poe original; the rest tend to be slightly longer, with a few outliers at the upper end of the range (e.g. "Lionizing," "Berenice"")
+Below is a comparison of word counts for the Poe stories. Baudelaire's translations are much more consistent in length than we saw above with McMaster et al., and even tend to be slightly longer in the French than in the English originals. There's one notable exception, "The Adventures of One Hans Pfaal," coming in at 88% the length of the original. In fact that's the only Baudelaire translation that's shorter than the Poe original.
 
 ![Word count comparison for Poe's stories: French vs English](word_counts_poe.png)
 

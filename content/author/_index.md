@@ -3,7 +3,7 @@ title = "Michael J. Myers"
 description = "About me — a list of projects — contact info"
 +++
 
-Formerly an aspiring writer. I studied English in college, then spent most of the 2010's preparing myself for a career in computational linguistics. Circumstances led me into a different field, however: neuroimaging research, where I've worked from from 2019 to present developing tools to analyze human brain function, particularly cortical organization in newborns.
+Formerly an aspiring writer. I studied English in college, then spent most of the 2010's preparing myself for a career in computational linguistics. Circumstances led me into a different field: neuroimaging research, where I've worked from from 2019 to present developing tools to analyze human brain function.
 
 But now, in 2026, I turn my attention back to computational linguistics, literary analysis, and translation.
 
@@ -11,13 +11,15 @@ But now, in 2026, I turn my attention back to computational linguistics, literar
 
 ### Corpus linguistics
 
-**[Montre](https://github.com/myersm0/montre)** — A modern, embeddable query engine for corpus linguistics.
+**[Deep-Littré](https://github.com/myersm0/deep-littre)** — A deeply structured, computationally enriched edition of Émile Littré's *Dictionnaire de la langue française* (1872–1877), built on François Gannaz's XMLittré digitization. Available as TEI Lex-0 XML and SQLite.
 
 **[Isosceles](https://github.com/myersm0/isosceles)** — A corpus of English and French literature, featuring parallel texts of the short fiction of Maupassant and Poe.
 
-**[Deep-Littré](https://github.com/myersm0/deep-littre)** — A deeply structured, computationally enriched edition of Littré's French dictionary. Available as TEI Lex-0 XML and SQLite.
+**[Montre](https://github.com/myersm0/montre)** — A modern, embeddable query engine for corpus linguistics. Designed from the ground up specifically for parallel corpora.
 
-**[WordFrequencyDistributions.jl](https://github.com/myersm0/WordFrequencyDistributions.jl)** — A Julia implementation of the statistical methods for frequency-based corpus linguistics described in R. Harald Baayen's *Word Frequency Distributions*.
+**[UniversalDependencies.jl](https://github.com/myersm0/UniversalDependencies.jl)** — A Julia representation of the Universal Dependencies data model for annotated linguistic data: typed nodes, structured features, and tree traversal. Featuring a toolkit for reading, editing, and analyzing UD treebanks.
+
+**[WordFrequencyDistributions.jl](https://github.com/myersm0/WordFrequencyDistributions.jl)** — A Julia implementation of the statistical methods for frequency-based corpus linguistics described in R. Harald Baayen's book *Word Frequency Distributions*.
 
 ### Neuroimaging & scientific computing
 

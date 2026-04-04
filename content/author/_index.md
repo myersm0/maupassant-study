@@ -41,7 +41,7 @@ But now, in 2026, I turn my attention back to computational linguistics, literar
 
 **[Hydra.jl](https://github.com/myersm0/Hydra.jl)** — A Julia implementation of the HYDRA algorithm for heterogeneity discovery through discriminative analysis.
 
-**[SuffixAutomata.jl](https://github.com/myersm0/SuffixAutomata.jl)** — A Julia implementation of suffix automata for generic sequences, designed for use with time series as well as text data.
+**[SuffixAutomata.jl](https://github.com/myersm0/SuffixAutomata.jl)** — A Julia implementation of suffix automata for generic sequences.
 
 **[SymbolicApproximators.jl](https://github.com/myersm0/SymbolicApproximators.jl)** — A Julia package implementing Symbolic Aggregate approXimation (SAX) and related methods for time series discretization and dimensionality reduction.
 
@@ -55,11 +55,11 @@ But now, in 2026, I turn my attention back to computational linguistics, literar
 
 ### Miscellaneous & experimental
 
-**[kenburns-renderer](https://github.com/myersm0/kenburns-renderer)** — A standalone C++ Ken Burns effect renderer with support for Bézier curved motion paths.
+**[kenburns-renderer](https://github.com/myersm0/kenburns-renderer)** — A standalone C++ Ken Burns effect renderer with anti-aliasing, Bézier curved motion paths, directional motion blur, smooth crossfade transitions, and more. Designed to be controlled by an external process via file-based IPC.
 
 **[RealtimeMusicTheory.jl](https://github.com/myersm0/RealtimeMusicTheory.jl)** — Fast, compile-time music theory abstractions for real-time audio applications in Julia.
 
-**[talon-organteq](https://github.com/myersm0/talon-organteq)** — Formal logic for the art of organ registration.
+**[talon-organteq](https://github.com/myersm0/talon-organteq)** — Formal logic for the art of organ registration. A powerful registration control system for Modartt's Organteq 2, built around an extensible rule-based grammar. Commands can be invoked from a Python session, by mapping them to switches on your MIDI controller, or with Talon voice commands for hands-free control.
 
 **[werkverzeichnis](https://github.com/myersm0/werkverzeichnis)** — A machine-readable catalog of catalogs for classical music metadata. (Status: temporarily on hold)
 

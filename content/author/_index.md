@@ -1,6 +1,6 @@
 +++
-title = "Author"
-description = "About the author — list of projects — contact info"
+title = "Michael J. Myers"
+description = "About me — a list of projects — contact info"
 +++
 
 Formerly an aspiring writer. I studied English in college, then spent most of the 2010's preparing myself for a career in computational linguistics. Circumstances led me into a different field, however: neuroimaging research, where I've worked from from 2019 to present developing tools to analyze human brain function, particularly cortical organization in newborns.

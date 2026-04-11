@@ -63,5 +63,7 @@ But now, in 2026, I turn my attention back to computational linguistics, literar
 
 **[werkverzeichnis](https://github.com/myersm0/werkverzeichnis)** — A machine-readable catalog of catalogs for classical music metadata. (Status: temporarily on hold)
 
+**[what-was-said](https://github.com/myersm0/what-was-said)** — A framework for storage, retrieval, inference, and temporal reasoning over your personal knowledge base.
+
 ## Contact
 [Michael Myers](mailto:maupassant-study@proton.me)

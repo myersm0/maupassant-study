@@ -1,7 +1,7 @@
 +++
-title = "Deep-Littré: a walkthrough and technical reference"
+title = "Introducing Deep-Littré"
 date = 2026-04-12
-description = "A quick introduction to the Deep-Littré: a deeply structured, computationally enriched edition of Émile Littré's French dictionary, available as TEI Lex-0 XML and SQLite."
+description = "A walkthrough of Deep-Littré: a deeply structured edition of Émile Littré's French dictionary, available as TEI Lex-0 XML and SQLite."
 
 [taxonomies]
 tags = ["tools"]
@@ -36,7 +36,7 @@ Every entry begins with the lemma, its pronunciation, and its grammatical catego
   <gramGrp><gram type="pos">v. a.</gram></gramGrp>
 ```
 
-The `xml:id` is an ASCII-normalized key derived from the headword, useful for cross-references and as a stable identifier in the database. "v. a." is Littré's abbreviation for _verbe actif_ (a transitive verb).
+The `xml:id` is an ASCII-normalized key derived from the headword, useful for cross-references and as a stable identifier in the database. "v. a." is Littré's abbreviation for _verbe actif_ (basically, a transitive verb).
 
 #### Numbered senses
 The definitions, ordered from concrete to abstract:
@@ -57,7 +57,7 @@ The definitions, ordered from concrete to abstract:
 </sense>
 ```
 
-Each sense carries an xml:id and a number. The xml:id follows a hierarchical scheme: tronquer_s1 for the first sense, tronquer_s1.1 for its first sub-entry, and so on. (The sub-entries are not shown here.)
+Each sense carries an `xml:id` and a number. The `xml:id` follows a hierarchical scheme: `tronquer_s1` for the first sense, `tronquer_s1.1` for its first sub-entry, and so on. (The sub-entries are not shown here.)
 
 #### Literary citations
 Most senses include one or more citations drawn from literature:
@@ -121,7 +121,7 @@ Substantivement: "used as a noun," signaling that a word whose primary part of s
 Both are what Littré uses to mark a grammatical shift in how the headword behaves. They indicate a new syntactic context that brings its own set of senses. That's why Deep-Littré treats them as transition groups: they scope over everything that follows, establishing a grammatical frame for the sub-entries beneath them.
 
 #### Historical notes and etymology
-Most entries close with two sections. The _historique_ provides dated attestations, usually organized by century (XVe siècle, i.e. the 15th century in this case):
+Most entries close with two sections. The _historique_ provides dated attestations, usually organized by century ("XVe s" in this case, i.e. the 15th century):
 
 ```xml
 <note type="historique">

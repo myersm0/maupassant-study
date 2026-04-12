@@ -1,0 +1,81 @@
+<entry xml:id="tronquer">
+ <form type="lemma">
+	<orth>TRONQUER</orth>
+	<pron>tron-ké</pron>
+ </form>
+ <gramGrp><gram type="pos">v. a.</gram></gramGrp>
+ <sense xml:id="tronquer_s1" n="1">
+	<def>Retrancher, couper.</def>
+	<cit type="example">
+	  <quote>Il ôte de chez lui les branches les plus belles, Il tronque son verger contre toute raison</quote>
+	  <bibl>
+		 <author>LA FONT.</author>
+		 <biblScope>Fabl. XII, 20</biblScope>
+	  </bibl>
+	</cit>
+	<cit type="example">
+	  <quote>Le coati est sujet à manger sa queue, qui, lorsqu'elle n'a pas été tronquée, est plus longue que son corps</quote>
+	  <bibl>
+		 <author>BUFF.</author>
+		 <biblScope>Quadrup. t. III, p. 83</biblScope>
+	  </bibl>
+	</cit>
+	<re type="locution" xml:id="tronquer_s1.1">
+	  <form><orth>En parlant des statues</orth></form>
+	  <def>En parlant des statues, mutiler en partie. Les barbares ont tronqué la plupart des statues de Rome.</def>
+	</re>
+ </sense>
+ <sense xml:id="tronquer_s2" n="2">
+	<def>Scier sur le tour.</def>
+ </sense>
+ <sense xml:id="tronquer_s3" n="3">
+	<usg type="sem">fig.</usg>
+	<def>En parlant des ouvrages d'esprit et en mauvaise part, y retrancher quelque chose d'essentiel.</def>
+	<cit type="example">
+	  <quote>Ces auteurs tronquent le passage et le voici tout entier</quote>
+	  <bibl>
+		 <author>BOSSUET</author>
+		 <biblScope>Var. XI, 112</biblScope>
+	  </bibl>
+	</cit>
+	<cit type="example">
+	  <quote>Les vérités sont diminuées : diminuées dans leur pureté, parce qu'on les falsifie et on les mêle ; diminuées dans leur intégrité, parce qu'on les tronque et on les retranche</quote>
+	  <bibl>
+		 <author>BOSSUET</author>
+		 <biblScope>Sermons, Prédic. évangél. 1</biblScope>
+	  </bibl>
+	</cit>
+	<cit type="example">
+	  <quote>Elle [la Sorbonne] condamna dix propositions [de la thèse de l'abbé de Prades] qu'il fallut tronquer et, par conséquent, falsifier</quote>
+	  <bibl>
+	</cit>
+	<cit type="example">
+	  <quote>Continuons maintenant à vous transcrire, en prenant seulement la liberté de restituer au besoin les passages de mon livre que vous tronquez</quote>
+	  <bibl>
+		 <author>J. J. ROUSS.</author>
+		 <biblScope>Lett. à l'archev. de Paris.</biblScope>
+	  </bibl>
+	</cit>
+ </sense>
+ <note type="historique">
+	<p>XVe s.</p>
+	<cit type="example">
+	  <quote>Icellui Perrenet se print à copper et troncer lesdiz ormes</quote>
+	  <bibl>
+		 <author>DU CANGE</author>
+		 <biblScope>troncire.</biblScope>
+	  </bibl>
+	</cit>
+	<p>XVIe s.</p>
+	<cit type="example">
+	  <quote>Un corps tronqué de teste</quote>
+	  <bibl>
+		 <author>RONS.</author>
+		 <biblScope>675</biblScope>
+	  </bibl>
+	</cit>
+ </note>
+ <etym>
+	<p>Provenç. et espagn. troncar ; ital. troncare ; du latin truncare (voy. <xr><ref target="#tronc">TRONC</ref></xr>).</p>
+ </etym>
+</entry>

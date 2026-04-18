@@ -19,7 +19,7 @@ But what is a _juge d'instruction_? From Littré's French dictionary:
 
 > Examining magistrate — a magistrate appointed to investigate crimes and offenses, gather evidence or indications, and have suspects arrested and questioned.{{ sidenote(num="2", body="Juge d'instruction, magistrat établi pour rechercher les crimes et les délits, en recueillir les preuves ou indices, et faire arrêter et interroger les prévenus.") }}
 
-Both Sandra Smith and the McMaster et al. translate his title is simply as "judge." This is imprecise and renders an inadequate impression of the man who's about to become the narrator of the story we're reading. Specifically, it fails to underscore the contrast that takes us from the framing prologue into the story proper: the contrast of a man discussing opinions second-hand on a popular contemporary case, and the same man discussing another case in which he was deeply involved in an investigative capacity.
+Both Sandra Smith and McMaster et al. translate his title is simply as "judge." This is imprecise and renders an inadequate impression of the man who's about to become the narrator of the story we're reading. Specifically, it fails to underscore the contrast that takes us from the framing prologue into the story proper: the contrast of a man discussing opinions second-hand on a popular contemporary case, and the same man discussing another case in which he was deeply involved in an investigative capacity.
 
 ## The clean-shaven mouth
 

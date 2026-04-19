@@ -2,6 +2,7 @@
 title = "Why I'm translating Maupassant"
 date = 2026-04-18
 description = "An analysis of the framing prologue in \"The Hand,\" towards demonstrating some of my translation principles."
+draft = true
 
 [taxonomies]
 tags = ["analysis", "translation"]
